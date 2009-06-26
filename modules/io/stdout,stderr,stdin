@@ -1,0 +1,5 @@
+These functions return I/O streams. I'm sure you can guess which ones.
+
+file (stdout) -> 
+file (stderr) ->
+file (stdin)  ->
