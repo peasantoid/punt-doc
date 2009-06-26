@@ -1,0 +1,7 @@
+These are the modules that ship with the core punt source distribution. They
+are the ones we believe to be necessary for any half-decent programming
+environment.
+
+Note: because of how punt modules are built, you may notice some in the source
+tree that are not, strictly speaking, 'necessary'. This is because the
+developers were too lazy to remove them prior to committing.
