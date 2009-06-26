@@ -11,7 +11,10 @@ Example:
   (use 'io' 'flow')
   (fput (stdout)
         (cond
-          .((no)  'not printed\n')
-          .((yes) 'printed\n')
-          .((yes) 'not printed\n')))
+          .((no)
+            'not printed\n')
+          .((yes)
+            'printed\n')
+          .((yes)
+            'not printed\n')))
   # prints 'printed'
