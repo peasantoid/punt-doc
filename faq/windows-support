@@ -1,0 +1,5 @@
+Microsoft Windows is not a supported operating system at the moment, as the
+developers are unfamiliar with the platform's API. If you have the requisite
+knowledge, please submit a patch so we can merge it.
+
+Alternatively, you can use punt in a *nix-like environment such as Cygwin.

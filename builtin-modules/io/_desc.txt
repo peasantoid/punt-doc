@@ -1,1 +1,1 @@
-Functions for input/output management.
+Functions for input/output management. Thin wrapper around C's <stdio.h>.
