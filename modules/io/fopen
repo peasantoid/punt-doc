@@ -1,0 +1,7 @@
+file (fopen
+       string:path
+       string:mode)
+
+Open I/O stream from filename .path with mode .mode. See fopen(3) for a list of
+available modes.
+Return false if unsuccessful.

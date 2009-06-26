@@ -1,0 +1,12 @@
+func (func
+       block:code)
+
+Return a function consisting of the expression contained by .code.
+
+Example:
+  (use 'io' 'flow')
+  (.foo
+    (func
+      .(fput (stdout) 'Hello, world!\n')))
+  (foo) # prints 'Hello, world!'
+

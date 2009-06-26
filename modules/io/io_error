@@ -1,0 +1,3 @@
+string (io_error)
+
+Return last I/O-related error message.

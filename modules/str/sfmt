@@ -1,0 +1,7 @@
+string (sfmt
+         a
+         b
+         ...)
+
+Return all arguments formatted into a string.
+Like C's printf(), but without the need to specify the format.

@@ -1,0 +1,14 @@
+Logical operators.
+Any non-nil value is considered true.
+
+bool (not
+       a) -> !a
+bool (and
+       a
+       b) -> a && b
+bool (or
+       a
+       b) -> a || b
+
+bool (yes) -> true
+bool (no)  -> false

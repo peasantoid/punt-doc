@@ -1,0 +1,7 @@
+string (fget
+         file:stream
+         number:count)
+
+If .count >= 0, read .count bytes from .stream and return as string.
+Otherwise, attempt to read all bytes.
+If unsuccessful, return false.

@@ -1,0 +1,7 @@
+? (last
+    a
+    b
+    ...)
+
+Return last argument. Useful for combining expressions.
+If no arguments passed, return false.

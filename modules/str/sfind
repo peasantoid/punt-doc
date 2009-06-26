@@ -1,0 +1,5 @@
+number (sfind
+         string:subject
+         string:search)
+
+Return the first offset in .subject where .search appears, or -1 if not found.

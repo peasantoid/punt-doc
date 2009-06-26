@@ -1,0 +1,6 @@
+? (while
+    block:condition
+    block:code)
+
+While evaluation of .condition is true, evaluate .code.
+Return the last evaluation of .code, or false if none.

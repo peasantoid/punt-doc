@@ -1,0 +1,29 @@
+Comparison functions.
+
+Numbers: numeric comparison.
+Strings: string comparison.
+Other: address comparison.
+
+bool (eq
+       a
+       b) -> a == b
+bool (ne
+       a
+       b) -> a != b
+
+Numbers: numeric comparison.
+Strings: length comparison.
+Other: address comparison.
+
+bool (lt
+       a
+       b) -> a < b
+bool (gt
+       a
+       b) -> a > b
+bool (le
+       a
+       b) -> a <= b
+bool (ge
+       a
+       b) -> a >= b

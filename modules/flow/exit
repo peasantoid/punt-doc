@@ -1,0 +1,5 @@
+bool (exit
+       number:code)
+
+Terminate execution with an exit status of .code.
+Return false. (Note: should not return.)

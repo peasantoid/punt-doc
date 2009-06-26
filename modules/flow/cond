@@ -1,0 +1,17 @@
+? (cond
+    .(condition value)
+    .(condition value)
+    ...)
+
+For each argument (clause), if .condition is true, return .value. Otherwise,
+test the next clause...
+Return false if no condition was true.
+
+Example:
+  (use 'io' 'flow')
+  (fput (stdout)
+        (cond
+          .((no)  'not printed\n')
+          .((yes) 'printed\n')
+          .((yes) 'not printed\n')))
+  # prints 'printed'

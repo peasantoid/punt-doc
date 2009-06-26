@@ -1,0 +1,26 @@
+Basic math functions.
+
+number (add
+         number:a
+         number:b) -> a + b
+number (sub
+         number:a
+         number:b) -> a - b
+number (mul
+         number:a
+         number:b) -> a * b
+number (div
+         number:a
+         number:b) -> a / b
+number (mod
+         number:a
+         number:b) -> a % b
+number (pow
+         number:a
+         number:b) -> a ^ b
+number (abs
+         number:a) -> | a |
+number (floor
+         number:a) -> floor(a)
+number (ceil
+         number:a) -> ceil(a)

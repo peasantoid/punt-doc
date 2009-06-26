@@ -1,0 +1,5 @@
+bool (fclose
+       file:stream)
+
+Close .stream.
+Return true if successful, false otherwise.

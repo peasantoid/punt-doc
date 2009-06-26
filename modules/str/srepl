@@ -1,0 +1,6 @@
+string (srepl
+         string:subject
+         string:search
+         string:replace)
+
+Return .subject with all instances of .search replaced by .replace.

@@ -1,0 +1,6 @@
+bool (fput
+       file:stream
+       string:data)
+
+Write .data to .stream.
+Return true if successful, false otherwise.

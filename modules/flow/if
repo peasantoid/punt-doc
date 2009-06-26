@@ -1,0 +1,6 @@
+? (if
+    condition
+    block:expression)
+
+If .condition is true, return the result of evaluating .expression.
+Otherwise, return false.
