@@ -1,0 +1,4 @@
+number (ord
+         string:str)
+
+Return the ASCII code of the first character in .str, or 0 if empty.

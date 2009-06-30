@@ -1,0 +1,7 @@
+string (ssub
+         string:str
+         number:start
+         number:len)
+
+Return the contents of .str, starting at offset .start and with a length of
+.len characters.

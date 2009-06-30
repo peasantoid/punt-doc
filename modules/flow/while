@@ -2,5 +2,5 @@
     block:condition
     block:code)
 
-While evaluation of .condition is true, evaluate .code.
+Repeat .code until .condition evaluates to false.
 Return the last evaluation of .code, or false if none.

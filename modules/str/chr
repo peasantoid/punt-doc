@@ -1,0 +1,4 @@
+string (chr
+         number:code)
+
+Return the character corresponding to ASCII code .code.
