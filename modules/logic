@@ -2,7 +2,10 @@ Logical operators.
 Any non-nil value is considered true.
 
 bool (not
-       a) -> !a
+       a) -> a == false
+bool (true
+       a) -> a == true
+
 bool (and
        a
        b) -> a && b
