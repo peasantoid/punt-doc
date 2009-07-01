@@ -1,0 +1,4 @@
+bool (feof
+       file:fp)
+
+Return true if EOF flag is set for .fp, false otherwise.
