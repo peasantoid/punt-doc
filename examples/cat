@@ -1,0 +1,9 @@
+(use 'io'   # fgetl, fput, stdin, stdout
+     'flow' # while, last
+     'str'  # slen
+     'cmp') # gt
+(while
+  .(last
+     (.s (fgetl (stdin))) # read line from standard input
+     (gt (slen s) 0))     # exit loop if EOF
+  .(fput (stdout) s))     # print the line

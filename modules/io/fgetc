@@ -1,0 +1,7 @@
+string (fgetc
+         file:fp)
+
+Read a character from .fp.
+If successful, return it as a 1-length string.
+If EOF, return an empty string.
+If error, return false.

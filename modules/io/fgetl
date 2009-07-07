@@ -1,0 +1,7 @@
+string (fgetl
+         file:fp)
+
+Read a line from .fp.
+If successful, return it with trailing newline.
+If EOF, return an empty string.
+If error, return false.

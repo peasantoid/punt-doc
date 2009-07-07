@@ -1,7 +1,8 @@
 ? (last
-    a
-    b
+    arg
+    arg
     ...)
 
-Return last argument. Useful for combining expressions.
+Return last argument. Useful for grouping expressions (similar to C's comma
+operator).
 If no arguments passed, return false.

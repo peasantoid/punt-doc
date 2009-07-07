@@ -1,0 +1,4 @@
+block (parse
+        string:code)
+
+Parse .code into a block and return it.

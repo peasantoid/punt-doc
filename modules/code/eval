@@ -1,0 +1,4 @@
+? (eval
+    block:code)
+
+Return the result of evaluating .code as a single expression.
